@@ -45,7 +45,11 @@
 }
 
 .secondLevelBlock{
+    display: none;
+}
 
+.secondLevelBlockOpen {
+   display: block;
 }
 
 .secondLevelBlockOpen:last-child {
@@ -53,7 +57,7 @@
 }
 
 .thirdLevel {
-    margin: 0 0 10px;
+    margin: 0 5px 10px;
     cursor: pointer;
     color: var(--gray-dark);
     display: block;
